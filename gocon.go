@@ -12,7 +12,7 @@ func main() {
 	go func() {
 		defer wg.Done()
 		fmt.Println("Function 1")
-		wg.Done()
+
 	}()
 
 	go func() {
